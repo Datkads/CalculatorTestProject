@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" name="CalculatorTestProject Parallel Test" parallel="tests">
+    <test name="Thread #1">
+        <classes>
+            <class name="tests.SumTest"/>
+            <class name="tests.DifferencesTest"/>
+            <class name="tests.DivisionTest"/>
+            <class name="tests.MultiplicationTest"/>
+        </classes>
+    </test> <!-- Test -->
+</suite>
